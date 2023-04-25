@@ -3,11 +3,15 @@ body {
 }
 
 form {
+  position: absolute;
   border: 2px solid #ccc;
   border-radius: 10px;
   padding: 20px;
   margin: auto;
-  max-width: 400px;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #obscure {
